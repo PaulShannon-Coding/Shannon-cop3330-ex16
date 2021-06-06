@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/salt
+
+class App
+App <|-- DriverProfile
+class DriverProfile
+{
+    +age
+    +verify_can_drive()
+    +build_and_verify()
+}
+@enduml
